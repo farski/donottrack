@@ -12,6 +12,8 @@ Simple rack middleware utility to make sure the upcoming standard DNT header is 
 	
 	# Manual override (always enable do not track)
 	use Rack::DoNotTrack, 1
+	
+Both of these will ensure that, in Rails for instance, request.headers['HTTP_DNT'] will always be available.
 
 
 ## Copyright
