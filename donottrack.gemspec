@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Chris Kalafarski"]
   s.date = %q{2011-05-13}
-  s.description = %q{TODO: Until the Do Not Track situation is completely flushed out...}
+  s.description = %q{Until the Do Not Track situation is completely flushed out...}
   s.email = %q{chris@farski.com}
   s.extra_rdoc_files = [
     "LICENSE.txt",
@@ -24,6 +24,7 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "donottrack.gemspec",
     "lib/donottrack.rb",
     "test/helper.rb",
     "test/test_donottrack.rb"
@@ -32,7 +33,7 @@ Gem::Specification.new do |s|
   s.licenses = ["MIT"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.5.2}
-  s.summary = %q{TODO: Some basic utility helpers for dealing with browser Do Not Track headers/lists/etc}
+  s.summary = %q{Some basic utility helpers for dealing with browser Do Not Track headers/lists/etc}
 
   if s.respond_to? :specification_version then
     s.specification_version = 3
