@@ -1,16 +1,6 @@
 = donottrack
 
-Description goes here.
-
-== Contributing to donottrack
- 
-* Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
-* Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it
-* Fork the project
-* Start a feature/bugfix branch
-* Commit and push until you are happy with your contribution
-* Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
-* Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
+Simple rack middleware utility to make sure the upcoming standard DNT header is always available. This will normalize things like the X-Do-Not-Track header that may be floating around, allow for server override, and default to 0 (allow tracking, the propose browser default) if there's no better option.
 
 == Copyright
 
