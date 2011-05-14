@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "donottrack"
   gem.homepage = "http://github.com/farski/donottrack"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: Some basic utility helpers for dealing with browser Do Not Track headers/lists/etc}
-  gem.description = %Q{TODO: Until the Do Not Track situation is completely flushed out...}
+  gem.summary = %Q{Some basic utility helpers for dealing with browser Do Not Track headers/lists/etc}
+  gem.description = %Q{Until the Do Not Track situation is completely flushed out...}
   gem.email = "chris@farski.com"
   gem.authors = ["Chris Kalafarski"]
   # dependencies defined in Gemfile
