@@ -9,8 +9,7 @@ module Rack
 
     def call(env)
       env['HTTP_DNT'] = @dnt_bit ? @dnt_bit : (env['HTTP_DNT'] || env['HTTP_X_DO_NOT_TRACK'] || DEFAULT_DNT_BIT)
-      status, headers, response = @app.call(env)
-      [status, headers, response]
+      @app.call(env)
     end
   end
 end
